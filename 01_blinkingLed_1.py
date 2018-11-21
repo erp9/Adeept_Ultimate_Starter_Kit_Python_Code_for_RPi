@@ -7,6 +7,7 @@
 # E-mail      : jason@adeept.com
 # Website     : www.adeept.com
 # Date        : 2015/06/12
+# Revised     : 2018/11/21
 #-----------------------------------------------------------
 
 import RPi.GPIO as GPIO
