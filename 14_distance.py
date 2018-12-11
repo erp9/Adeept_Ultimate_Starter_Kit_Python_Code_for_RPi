@@ -20,8 +20,15 @@ GPIO.setup(18,GPIO.IN)
 time.sleep(2)
 try:
 	while True:
-		print 'Distance: %0.2f m' %checkdist()
-		time.sleep(0.5)
+                ##print 'Distance: %0.2f m' %checkdist()
+                # print '%0.2f' %checkdist() * 3               
+                ##print checkdist()*3
+                if checkdist() < 0.50:
+                        print 'You are smelly, go away'
+                else:
+                        print 'Hey good looking, come over here'
+
+                time.sleep(.1)
 except KeyboardInterrupt:
 	GPIO.cleanup()
 
