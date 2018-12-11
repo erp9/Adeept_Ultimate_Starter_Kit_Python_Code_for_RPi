@@ -256,28 +256,25 @@ def loop():
 	lcd = Adafruit_CharLCD()
 	while True:
                 ## one full cycle
-                lcd.clear()
-		lcd.message("I eat my \n boogers")
-		sleep(2)
 
-                ## next
-		lcd.clear()
-		lcd.message(" LCD 1602 Test \n123456789ABCDEF")
-		sleep(2)
 		lcd.clear()
 		lcd.message("   Hello, Rubin !\nHello World ! :)")
 		sleep(2)
 		lcd.clear()
-		lcd.message("Welcome to --->\n  adeept.com")
+		lcd.message("hi ya'll \ntommorow school")
 		sleep(2)
 		lcd.clear()
-		lcd.message("   Hello, Delia !\nHello World ! :)")
+		lcd.message("is CANCELLED!! !")
 		sleep(2)
-
-                lcd.clear()
-                lcd.message(" Hi ya'll. \n My name is Delia" )
-                sleep(2)
-                
+                # lcd.clear()
+                # lcd.message(" Hi ya'll my \nname is Delia" )
+                # sleep(2)
+                # lcd.clear()
+                # lcd.message(" My brother \nstinks like farts" )
+                # sleep(2)
+                # lcd.clear()
+                # lcd.message(" My brother sounds like a chicken \n with duct tape over it's beak ")
+                # sleep(2)
 
 if __name__ == '__main__':
 	loop()
