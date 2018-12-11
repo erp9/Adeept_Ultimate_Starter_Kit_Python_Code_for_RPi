@@ -255,15 +255,29 @@ class Adafruit_CharLCD:
 def loop():
 	lcd = Adafruit_CharLCD()
 	while True:
+                ## one full cycle
+                lcd.clear()
+		lcd.message("I eat my \n boogers")
+		sleep(2)
+
+                ## next
 		lcd.clear()
 		lcd.message(" LCD 1602 Test \n123456789ABCDEF")
 		sleep(2)
 		lcd.clear()
-		lcd.message("   Hello, geeks !\nHello World ! :)")
+		lcd.message("   Hello, Rubin !\nHello World ! :)")
 		sleep(2)
 		lcd.clear()
-		lcd.message("Welcom to --->\n  adeept.com")
+		lcd.message("Welcome to --->\n  adeept.com")
 		sleep(2)
+		lcd.clear()
+		lcd.message("   Hello, Delia !\nHello World ! :)")
+		sleep(2)
+
+                lcd.clear()
+                lcd.message(" Hi ya'll. \n My name is Delia" )
+                sleep(2)
+                
 
 if __name__ == '__main__':
 	loop()
