@@ -56,3 +56,4 @@ docs/_build/
 # PyBuilder
 target/
 /notes.org
+/27_magic8.py~
