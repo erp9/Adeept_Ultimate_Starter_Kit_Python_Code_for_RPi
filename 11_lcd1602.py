@@ -258,7 +258,7 @@ def loop():
                 ## one full cycle
 
 		lcd.clear()
-		lcd.message("   Hello, Rubin !\nHello World ! :)")
+		lcd.message("No Pie for Rubin \n :(")
 		sleep(2)
 		lcd.clear()
 		lcd.message("hi ya'll \ntommorow school")
